@@ -1,3 +1,4 @@
+Portfolio-Microverse
 📗 Table of Contents
 📖 About the Project
 🛠 Built With
@@ -18,7 +19,7 @@ Deployment
 🙏 Acknowledgements
 ❓ FAQ (OPTIONAL)
 📝 License
-📖 [Hello Microverse]
+📖 [Portfolio-Microverse]
 The Hello Microverse website displays a header with Hello Microverse.
 
 🛠 Built With
@@ -65,6 +66,6 @@ I would like to thank all Microverse community.
 (back to top)
 
 📝 License
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
 
 (back to top)
