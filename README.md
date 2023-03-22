@@ -53,7 +53,7 @@ Access to Internet Connection
 
 Clone this repository to your desired folder:
 git@github.com:Megagig/Hello-Microverse.git
-cd Hello-Microverse
+cd Portfolio-Microverse
 
 ### Install
 
