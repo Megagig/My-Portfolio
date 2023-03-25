@@ -16,7 +16,7 @@ header {
   background-color: #fff;
 }
 
-.amburger {
+.ambuger {
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +51,7 @@ header {
   text-decoration: none;
 }
 
-section {
+.header {
   border-bottom-left-radius: 80px;
   background-image: url("./images/background-Image.jpeg");
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ section {
   background-position-x: 100%;
 }
 
-.holder {
+.greeting {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -68,7 +68,7 @@ section {
   padding: 0.6em;
 }
 
-.holder p {
+.greeting p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +77,7 @@ section {
   color: #344563;
 }
 
-.holder h1 {
+.greeting h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -95,7 +95,7 @@ section {
   padding-left: 3%;
 }
 
-.connection a {
+.intro-items a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -105,7 +105,7 @@ section {
   text-decoration: none;
 }
 
-.connection ul li a {
+.intro-items ul li a {
   text-decoration: none;
   display: block;
   font-family: "Poppins", sans-serif;
@@ -132,11 +132,14 @@ section {
   list-style: none;
 }
 
+/* card section */
+
 .tonic {
   background: #e5e5e5;
   display: grid;
   gap: 24px;
 }
+
 .canopy {
   flex-direction: column;
   gap: 24px;
@@ -145,6 +148,7 @@ section {
   padding: 16px;
   background-color: #fff;
 }
+
 .canopy:nth-of-type(2),
 .canopy:nth-of-type(3),
 .canopy:nth-of-type(4) {
@@ -158,6 +162,7 @@ section {
   gap: 12px;
   align-items: center;
 }
+
 .date .lent {
   font-weight: 600;
   text-transform: uppercase;
@@ -176,6 +181,7 @@ section {
   line-height: 44px;
   color: #172b4d;
 }
+
 .date p {
   font-size: 13px;
   color: #7a869a;
@@ -185,12 +191,14 @@ section {
   font-style: normal;
   font-family: "Poppins", sans-serif;
 }
+
 .backend {
   width: 10px;
   height: 10px;
   background-color: #c1c7d0;
   border-radius: 500%;
 }
+
 .option p {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -199,15 +207,18 @@ section {
   line-height: 24px;
   color: #344563;
 }
+
 ul {
   list-style-type: none;
 }
+
 .names {
   display: flex;
   gap: 12px;
   margin: 12px 0;
   flex-direction: row;
 }
+
 .names li {
   padding: 4px 12px;
   border-radius: 8px;
@@ -243,20 +254,21 @@ button {
   flex-direction: column;
 }
 
-/*About Section*/
-
-.abt {
+/* -----------About Section------------ */
+.about {
   border-top-right-radius: 80px;
 }
-span {
+
+.span {
   display: inline-block;
 }
-.skills {
+
+.knowdge {
   margin-top: 24px;
   gap: 12px;
 }
 
-.skill-text {
+.know-text {
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
@@ -265,7 +277,8 @@ span {
   width: 100%;
   padding: 24px 42px 36px 0;
 }
-.me {
+
+.self {
   margin: 12px 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -275,7 +288,7 @@ span {
   color: #344563;
 }
 
-.text {
+.about-text {
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -287,19 +300,20 @@ span {
   background: #fff;
 }
 
-ul.social-items.work-items {
+ul.list-items.skill-items {
   margin-top: 12px;
   gap: 24px;
 }
 
-.job {
+.job-text {
   font-size: 15px;
   color: #253858;
   font-weight: 500;
   display: flex;
   align-items: center;
 }
-.awesome {
+
+.text {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -307,37 +321,29 @@ ul.social-items.work-items {
   line-height: 24px;
   color: #000;
 }
-.lan-line {
+
+.know-line {
   font-weight: 500;
   color: #5e6c84;
   transform: rotate(90deg);
 }
-.good {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-}
-.lan-line {
-  font-weight: 500;
-  color: #5e6c84;
-  transform: rotate(90deg);
-}
-.skills-set {
+
+.know-list {
   align-items: center;
   padding: 24px;
   gap: 12px;
   background: #f7f7f9;
   border-radius: 8px;
 }
-.skill-set {
+
+.know-sec {
   gap: 12px;
 }
-.good-line {
+
+.arrow-line {
   color: #dfe1e6;
 }
-.work {
+
+.card-tag {
   color: #6070ff;
 }
