@@ -473,3 +473,103 @@ header {
 hr.new1 {
   border-top: 1px solid #dfe1e6;
 }
+
+/* Contact-me Section*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/contact-bg.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: inherit;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.call-now h2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+.call-now p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 15px;
+  padding: 10;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 15px 38px 15px 16px;
+}
+
+.input-textarea {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 15px 38px 15px 16px;
+}
+
+.submit-button {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  border: none;
+  color: #fff;
+  background: #29323c;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  border: none;
+  color: #fff;
+  background: #2230d2;
+}
+
+.desktop-menu {
+  display: none;
+}
