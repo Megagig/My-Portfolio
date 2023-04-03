@@ -474,7 +474,7 @@ hr.new1 {
   border-top: 1px solid #dfe1e6;
 }
 
-/* Contact-me Section*/
+/* Contact-me Section */
 .contact {
   display: flex;
   flex-direction: column;
@@ -498,6 +498,7 @@ hr.new1 {
   line-height: 52px;
   color: #fff;
 }
+
 .call-now p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -509,6 +510,7 @@ hr.new1 {
   margin: 15px;
   padding: 10;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
