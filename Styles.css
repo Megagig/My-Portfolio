@@ -484,7 +484,7 @@ hr.new1 {
   background-size: 100% 100%;
   background-position: inherit;
   justify-content: center;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 .call-now h2 {
@@ -509,6 +509,10 @@ hr.new1 {
   color: #ebebff;
   margin: 15px;
   padding: 10;
+}
+
+.contact-holder {
+  margin-top: 103px;
 }
 
 .contact-form {
@@ -557,13 +561,18 @@ hr.new1 {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 12px 16px 12px 16px;
+  color: #6070ff;
+  font-size: 17px;
+  border: none;
 }
 
 button:hover {
   border: none;
-  color: #fff;
-  background: #29323c;
+  background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  text-decoration: underline;
 }
 
 button:active {
