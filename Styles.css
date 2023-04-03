@@ -475,7 +475,7 @@ hr.new1 {
 }
 
 /* Contact-me Section*/
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact-bg.png);
@@ -487,7 +487,7 @@ hr.new1 {
   padding-bottom: 2%;
 }
 
-.call-now h2{
+.call-now h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -498,7 +498,7 @@ hr.new1 {
   line-height: 52px;
   color: #fff;
 }
-.call-now p{
+.call-now p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -509,7 +509,7 @@ hr.new1 {
   margin: 15px;
   padding: 10;
 }
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   padding: 20px;
