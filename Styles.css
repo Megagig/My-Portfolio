@@ -204,7 +204,7 @@ header {
 
 .language .work {
   float: left;
-  gap: 5px;
+  gap: 6px;
   list-style-type: none;
   margin: 12px 15px;
 }
