@@ -584,3 +584,193 @@ button:active {
 .desktop-menu {
   display: none;
 }
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .nav-link {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  .desktop a {
+    text-decoration: none;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
+  .opening {
+    background-image: url(images/background-Image.jpeg);
+    background-size: cover;
+  }
+  .opening-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .desc {
+    width: 75%;
+    height: auto;
+  }
+  /*Destop Work section*/
+  .project-holder {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 86.5%;
+    margin: 10px 0 0 28px;
+  }
+  .project {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+  }
+  .project-img {
+    width: 32rem;
+    height: 28rem;
+    transition: transform 0.2s ease-out;
+    margin-top: -1rem;
+    margin-left: -5.7rem;
+  }
+  .project-img:hover {
+    transform: scale(1.1);
+  }
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2%;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .project-title {
+    margin-top: auto;
+    margin-left: -5.5rem;
+    text-align: center;
+  }
+  .see {
+    margin-left: -5.4rem;
+  }
+  /*----------About Section--------------------------------*/
+  .about-holder {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-lang {
+    display: block;
+  }
+  .about-holder .lang {
+    display: flex;
+  }
+
+  /* .languages {
+    display: flex;
+    justify-content: space-between;
+  } */
+  .lang-title {
+    display: flex;
+  }
+  .lang {
+    flex-direction: row;
+    padding: 5px 15px;
+  }
+  .langs {
+    padding: 20px;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+  .langs img {
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .about {
+    padding-left: 30px;
+    padding-right: 60px;
+  }
+  .content {
+    margin-bottom: 100px;
+    padding-top: 50px;
+  }
+  .mbido {
+    width: 447px;
+    height: 102px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /*-------------contact Section---------------------------------------------------*/
+  .contact {
+    width: 100%;
+    background-image: url(images/contact\ form-\ background-shape-desktop.svg);
+  }
+  .contact-holder {
+    width: 100%;
+  }
+  .contact-description {
+    width: 33%;
+    margin-top: -10rem;
+  }
+  .call-now {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+  #name {
+    width: 27rem;
+    border-radius: 0;
+  }
+  #email {
+    width: 27rem;
+    border-radius: 0;
+  }
+  #message {
+    width: 27rem;
+    border-radius: 0;
+  }
+  .submit-button {
+    margin-left: 30%;
+    border: none;
+  }
+  .submit-button:hover {
+    background-color: #2230d2;
+  }
+}

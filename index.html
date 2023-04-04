@@ -17,7 +17,14 @@
     <section class="container">
       <header>
         <a href="#" class="logo">My Logo</a>
-        <nav>
+        <div class="desktop-link">
+          <ul class="desktop">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <nav class="nav-link">
           <ul class="setting">
             <li class="line"></li>
             <li class="line"></li>
@@ -62,7 +69,7 @@
     <section class="project-holder">
       <div class="project">
         <div class="project-image">
-          <img src="images/card1.svg" alt="card1" />
+          <img src="images/card1.svg" alt="card1" class="project-img" />
         </div>
         <div class="project-content">
           <h2 class="project-title">Tonic</h2>
@@ -158,8 +165,8 @@
     </section>
     <!--About Section-->
     <section class="about">
-      <div class="about-holder">
-        <div class="content">
+      <div class="about-holder flex column">
+        <div class="content flex column">
           <h2 class="title">About Myself</h2>
           <p class="mbido">
             Hello I'm a software developer! I can help you build a product ,
@@ -194,7 +201,11 @@
             <ul class="lang-title">
               <li class="lang-text">Languages</li>
               <li class="lang-img">
-                <img src="images/arrow-down.svg" alt="arrow" />
+                <img
+                  src="images/arrow-down.svg"
+                  alt="arrow"
+                  class="down-arrow"
+                />
               </li>
             </ul>
 
@@ -240,7 +251,7 @@
       <div class="contact-holder">
         <div class="call-now">
           <h2>Contact me</h2>
-          <p>
+          <p class="contact-description">
             If you have an application you are interested in developing, a
             features that you need built or a project that need coding. I'd love
             to help with it.
@@ -251,6 +262,7 @@
             <div class="input-username">
               <input
                 type="text"
+                id="name"
                 name="username"
                 class="input"
                 placeholder="Username"
@@ -262,6 +274,7 @@
             <div class="email-input">
               <input
                 type="email"
+                id="email"
                 name="email"
                 class="input"
                 placeholder="Email"
@@ -275,6 +288,7 @@
             <div class="text-area">
               <textarea
                 name="message"
+                id="message"
                 type="text"
                 class="input-textarea"
                 cols="30"
