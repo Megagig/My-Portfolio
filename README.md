@@ -67,6 +67,11 @@ npm init -y
 
 - GitHub: [@Megagig](https://github.com/Megagig)
 
+## Future Features
+
+popup menu for the portfolio-microverse
+Animations
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
