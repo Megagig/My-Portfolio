@@ -37,6 +37,7 @@ header {
   color: #6070ff;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 10%;
 }
 
 .setting {
@@ -211,13 +212,6 @@ header {
 }
 
 /* ------------------work section desktop------------------------ */
-.work {
-  background: #e5e5e5;
-  display: grid;
-  grid-template-columns: 33.333%;
-  margin-top: 6rem;
-}
-
 @media only screen and (min-width: 375px) {
   .card-container {
     display: flex;
@@ -804,8 +798,8 @@ button:active {
   header {
     position: fixed;
     background-color: #fff;
-    width: 100%;
-    justify-content: space-around;
+    width: 95%;
+    justify-content: space-between;
   }
 
   .nav-link {
@@ -833,7 +827,16 @@ button:active {
 
   .opening {
     background-image: url(images/Header\ bg.svg);
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 80px;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    padding: 100px 100px;
+    margin-left: 40px;
+    margin-right: 20px;
   }
 
   .opening-container {
@@ -942,17 +945,17 @@ button:active {
     display: block;
   }
 
+  .lang {
+    flex-direction: row;
+    padding: 5px 15px;
+  }
+
   .about-holder .lang {
     display: flex;
   }
 
   .lang-title {
     display: flex;
-  }
-
-  .lang {
-    flex-direction: row;
-    padding: 5px 15px;
   }
 
   .langs {
