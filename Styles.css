@@ -1003,6 +1003,7 @@ button:active {
     flex-direction: column;
     align-items: center;
   }
+
   .contact {
     width: 100%;
     background-image: url(images/contact\ form\ background\ shapes@2x.png);
