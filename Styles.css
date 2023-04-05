@@ -209,7 +209,8 @@ header {
   list-style-type: none;
   margin: 12px 15px;
 }
-/*------------------work section desktop------------------------*/
+
+/* ------------------work section desktop------------------------ */
 .work {
   background: #e5e5e5;
   display: grid;
@@ -407,7 +408,8 @@ header {
     margin: 6px;
   }
 }
-/*------------------------end work section desktop------------------------*/
+
+/* ------------------------end work section desktop------------------------ */
 
 .work {
   font-family: "Poppins", sans-serif;
@@ -782,9 +784,11 @@ button:active {
 .desktop-menu {
   display: none;
 }
+
 .flex {
   display: flex;
 }
+
 .column {
   flex-direction: column;
 }
@@ -796,15 +800,18 @@ button:active {
     width: 100%;
     overflow-x: hidden;
   }
+
   header {
     position: fixed;
     background-color: #fff;
     width: 100%;
     justify-content: space-around;
   }
+
   .nav-link {
     display: none;
   }
+
   .desktop {
     display: flex;
     text-decoration: none;
@@ -813,6 +820,7 @@ button:active {
     align-items: center;
     gap: 24px;
   }
+
   .desktop a {
     text-decoration: none;
     color: #344563;
@@ -822,10 +830,12 @@ button:active {
     line-height: 1.2rem;
     font-size: 1rem;
   }
+
   .opening {
     background-image: url(images/Header\ bg.svg);
     background-size: cover;
   }
+
   .opening-container {
     display: flex;
     flex-direction: column;
@@ -833,18 +843,22 @@ button:active {
     padding-left: 10%;
     margin-top: 20px;
   }
+
   .heading {
     width: 50%;
     margin-top: 80px;
   }
+
   .socials {
     margin-bottom: 100px;
   }
+
   .desc {
     width: 75%;
     height: auto;
   }
-  /*Destop Work section*/
+
+  /* Destop Work section */
   .work {
     display: grid;
     display: flex;
@@ -907,6 +921,7 @@ button:active {
     margin-top: -8.5rem;
     margin-right: -8.3rem;
   }
+
   .see-button {
     margin-left: -5.4rem;
     margin-top: 5rem;
@@ -915,25 +930,31 @@ button:active {
   .order-2 {
     order: 2;
   }
-  /*----------About Section--------------------------------*/
+
+  /* ----------About Section-------------------------------- */
   .about-holder {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .about-lang {
     display: block;
   }
+
   .about-holder .lang {
     display: flex;
   }
+
   .lang-title {
     display: flex;
   }
+
   .lang {
     flex-direction: row;
     padding: 5px 15px;
   }
+
   .langs {
     padding: 20px;
     flex-direction: column;
@@ -942,20 +963,24 @@ button:active {
     background: #f7f7f9;
     border-radius: 8px;
   }
+
   .langs img {
     border-radius: 8px;
     width: 40px;
     height: 40px;
     position: relative;
   }
+
   .about {
     padding-left: 30px;
     padding-right: 60px;
   }
+
   .content {
     margin-bottom: 100px;
     padding-top: 50px;
   }
+
   .mbido {
     width: 447px;
     height: 102px;
@@ -963,7 +988,7 @@ button:active {
     line-height: 24px;
   }
 
-  /*-------------contact Section---------------------------------------------------*/
+  /* -------------contact Section--------------------------------------------------- */
 
   .contact-holder {
     width: 100%;
@@ -971,36 +996,44 @@ button:active {
     flex-direction: column;
     align-items: center;
   }
+
   .contact-description {
     width: 33%;
     margin-top: -10rem;
   }
+
   .call-now {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+
   form {
     width: 100%;
   }
+
   #name {
     width: 27rem;
     border-radius: 0;
   }
+
   #email {
     width: 27rem;
     border-radius: 0;
   }
+
   #message {
     width: 27rem;
     border-radius: 0;
     resize: none;
   }
+
   .submit-button {
     margin-left: 30%;
     border: none;
   }
+
   .submit-button:hover {
     background-color: #2230d2;
   }
