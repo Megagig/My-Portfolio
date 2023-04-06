@@ -1050,3 +1050,8 @@ button:active {
     background-color: #2230d2;
   }
 }
+
+.project-img:hover{
+  animation-duration: 10
+  animation-iteration-count: infinite;
+}
