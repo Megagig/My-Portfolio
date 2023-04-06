@@ -1050,6 +1050,7 @@ button:active {
     background-color: #2230d2;
   }
 }
+
 /* --------------Animations and Transition----------------- */
 .project-img:hover {
   transform: scale(1.1);
