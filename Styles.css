@@ -1050,3 +1050,19 @@ button:active {
     background-color: #2230d2;
   }
 }
+
+/* --------------Animations and Transition----------------- */
+.project-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+textarea:hover::placeholder {
+  transform: translate(3px);
+}
+
+input[type="text"]:hover::placeholder,
+input[type="email"]:hover::placeholder {
+  transform: translate(3px);
+  color: #b3bac5;
+}
