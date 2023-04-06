@@ -1051,7 +1051,7 @@ button:active {
   }
 }
 
-.project-img:hover{
-  animation-duration: 10
-  animation-iteration-count: infinite;
+.project-img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
