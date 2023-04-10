@@ -40,6 +40,10 @@ Linters.
 
 - [Live Demo Link](https://megagig.github.io/Portfolio-Microverse/)
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://megagig.github.io/Portfolio-Microverse/)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
