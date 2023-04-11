@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio Microverse</title>
+    <title>Anthony's Portfolio</title>
   </head>
   <body>
     <section class="container">
@@ -72,12 +72,11 @@
           alt="Project Snapshoot"
           class="project-img"
         />
-        <!-- <img src="img/Snapshoot Portfolio desktop.png" alt="desktop image" class="desktop-image"> -->
 
         <div class="wrap">
           <h2 class="card-tittle">Tonic</h2>
           <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="" />
+            <img src="images/Frame 2.png" alt="Project Card 1" />
           </div>
           <p class="description">
             A daily selection of privately personalized reads; no accounts or
@@ -96,13 +95,13 @@
       <div class="card-container">
         <img
           src="images/Snapshoot Portfolio(3).png"
-          alt="Project Snapshoot"
+          alt="Project card 2"
           class="project-img order-2"
         />
         <div class="wrap">
           <h2 class="card-tittle">Multi-Post Stories</h2>
           <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="" />
+            <img src="images/Frame 2.png" alt="Project card 3" />
           </div>
           <p class="description">
             A daily selection of privately personalized reads; no accounts or
@@ -126,7 +125,7 @@
         <div class="wrap">
           <h2 class="card-tittle">Tonic</h2>
           <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="" />
+            <img src="images/Frame 2.png" alt="Project card 4" />
           </div>
           <p class="description">
             A daily selection of privately personalized reads; no accounts or
@@ -144,13 +143,13 @@
       <div class="card-container">
         <img
           src="images/Snapshoot Portfolio desktop 2.png"
-          alt="Project Snapshoot"
+          alt="Project card 6"
           class="project-img order-2"
         />
         <div class="wrap">
           <h2 class="card-tittle">Multi-Post Stories</h2>
           <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="" />
+            <img src="images/Frame 2.png" alt="Project card 5" />
           </div>
           <p class="description">
             A daily selection of privately personalized reads; no accounts or
@@ -248,7 +247,7 @@
         </div>
       </div>
     </section>
-    <!----------------------------Contact Me Section-------------------------------------->
+    <!----------------------------Contact Me Section------------------------------------>
     <section class="contact">
       <div class="contact-holder">
         <div class="call-now">
@@ -262,6 +261,7 @@
         <div class="contact-form">
           <form action="https://formspree.io/f/mbjezpvk" method="POST">
             <div class="input-username">
+              <label hidden for="name">Username</label>
               <input
                 type="text"
                 id="name"
@@ -274,6 +274,7 @@
             </div>
             <br />
             <div class="email-input">
+              <label hidden for="email" class="email-label">Email</label>
               <input
                 type="email"
                 id="email"
@@ -288,6 +289,7 @@
             <br />
 
             <div class="text-area">
+              <label hidden for="message" class="msg-label">Message</label>
               <textarea
                 name="message"
                 id="message"

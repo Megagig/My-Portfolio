@@ -34,7 +34,7 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #263cfc;
   cursor: pointer;
   text-decoration: none;
   margin-left: 10%;
@@ -98,7 +98,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #263cfc;
   margin-bottom: 1rem;
   cursor: pointer;
   text-decoration: none;
@@ -302,7 +302,7 @@ header {
   width: 53px;
   height: 24px;
   background: #ebebff;
-  color: #6070ff;
+  color: #263cfc;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -319,7 +319,7 @@ header {
   width: 45px;
   height: 24px;
   background: #ebebff;
-  color: #6070ff;
+  color: #263cfc;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -336,7 +336,7 @@ header {
   width: 89px;
   height: 24px;
   background: #ebebff;
-  color: #6070ff;
+  color: #263cfc;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -491,7 +491,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #263cfc;
 }
 
 .about-icons {
@@ -700,11 +700,11 @@ hr.new1 {
 .call-now p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #fff;
   margin: 15px;
   padding: 10;
 }
@@ -761,7 +761,7 @@ hr.new1 {
   margin-bottom: 30px;
   margin-top: 20px;
   padding: 12px 16px 12px 16px;
-  color: #6070ff;
+  color: #263cfc;
   font-size: 17px;
   border: none;
 }
@@ -1039,6 +1039,7 @@ button:active {
     width: 27rem;
     border-radius: 0;
     resize: none;
+    float: right;
   }
 
   .submit-button {
@@ -1048,6 +1049,22 @@ button:active {
 
   .submit-button:hover {
     background-color: #2230d2;
+  }
+
+  label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .email-label {
+    padding-left: 52px;
+  }
+
+  .msg-label {
+    padding-left: 14px;
   }
 }
 
