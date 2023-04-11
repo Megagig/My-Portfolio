@@ -1039,6 +1039,7 @@ button:active {
     width: 27rem;
     border-radius: 0;
     resize: none;
+    float: right;
   }
 
   .submit-button {
@@ -1048,6 +1049,22 @@ button:active {
 
   .submit-button:hover {
     background-color: #2230d2;
+  }
+
+  label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 17px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .email-label {
+    padding-left: 52px;
+  }
+
+  .msg-label {
+    padding-left: 14px;
   }
 }
 
