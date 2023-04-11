@@ -38,7 +38,7 @@ Linters.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://megagig.github.io/Portfolio-Microverse/)
+- [Live Demo Link](https://megagig.github.io/Anthony-s-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
