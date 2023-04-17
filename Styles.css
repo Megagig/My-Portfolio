@@ -39,10 +39,12 @@ header {
   text-decoration: none;
   margin-left: 10%;
 }
+
 .logo-icon {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .desktop-link.active {
   display: flex;
   flex-direction: column;
@@ -105,11 +107,6 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-}
-
-.desktop-link.active li {
-  padding-left: 28px;
-  padding-bottom: 40px;
 }
 
 .setting {
