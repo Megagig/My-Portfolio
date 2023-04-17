@@ -427,12 +427,6 @@ ul {
   color: #fff;
 }
 
-/* @media only screen and (max-width: 378px) {
-  .desktop {
-    display: none;
-  }
-} */
-
 @media only screen and (min-width: 375px) {
   .card-container {
     display: flex;
@@ -852,6 +846,7 @@ button:active {
     background-color: #fff;
     width: 95%;
     justify-content: space-between;
+    margin-left: 200px;
   }
 
   .nav-link {
