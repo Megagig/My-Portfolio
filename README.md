@@ -30,6 +30,7 @@ The Portfolio website displays my portfolio as a web developer.
 
 HTML(HTML-5).
 CSS
+JavaScript
 
 ### Key Features <a name="key-features"></a>
 
