@@ -11,26 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Anthony's Portfolio</title>
   </head>
   <body>
     <section class="container">
       <header>
-        <a href="#" class="logo">My Logo</a>
-        <div class="desktop-link">
-          <ul class="desktop">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+        <div class="logo-icon">
+          <a href="#" class="logo">My Logo</a>
         </div>
-        <nav class="nav-link">
-          <ul class="setting">
-            <li class="line"></li>
-            <li class="line"></li>
-            <li class="line"></li>
+
+        <nav class="desktop-link">
+          <ul class="desktop">
+            <li><a href="#cards" class="nav-list">Portfolio</a></li>
+            <li><a href="#about" class="nav-list">About</a></li>
+            <li><a href="#contact" class="nav-list">Contact</a></li>
           </ul>
         </nav>
+
+        <div class="nav-links">
+          <a href="#"
+            ><img
+              src="images/icon-menu.png"
+              alt="navigation icon"
+              class="hamburger"
+            />
+            <i class="fa-solid fa-xmark close"></i>
+          </a>
+        </div>
       </header>
       <section class="opening">
         <div class="opening-container">
@@ -65,7 +79,7 @@
       </section>
     </section>
     <!-- Work Section -->
-    <section class="work">
+    <section class="work" id="cards">
       <div class="card-container">
         <img
           src="images/Snapshoot Portfolio desktop.png"
@@ -165,7 +179,7 @@
       </div>
     </section>
     <!--About Section-->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-holder flex column">
         <div class="content flex column">
           <h2 class="title">About Myself</h2>
@@ -248,7 +262,7 @@
       </div>
     </section>
     <!----------------------------Contact Me Section------------------------------------>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contact-holder">
         <div class="call-now">
           <h2>Contact me</h2>
@@ -308,5 +322,7 @@
         </div>
       </div>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
