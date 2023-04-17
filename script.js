@@ -14,3 +14,11 @@ closeIcon.addEventListener('click', () => {
   hamburgerButton.classList.toggle('hide');
   closeIcon.classList.toggle('show');
 });
+
+navListEl.forEach((element) => {
+  element.addEventListener('click', () => {
+    menuEl.classList.toggle('active');
+    hamburgerButton.classList.toggle('hide');
+    closeIcon.classList.toggle('show');
+  });
+});
