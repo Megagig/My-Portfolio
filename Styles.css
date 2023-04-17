@@ -75,12 +75,6 @@ img.hamburger.hide {
   display: none;
 }
 
-/* .desktop-link.active {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-} */
-
 .desktop-link.active li {
   padding-left: 28px;
   padding-bottom: 40px;
@@ -883,8 +877,7 @@ button:active {
     display: inline;
   }
 
-  .desktop-link li,
-  a {
+  a.desktop-link li {
     padding-right: 15px;
     height: 0%;
     color: #344563;
