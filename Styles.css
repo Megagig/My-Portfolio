@@ -39,7 +39,10 @@ header {
   text-decoration: none;
   margin-left: 10%;
 }
-
+.logo-icon {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .desktop-link.active {
   display: flex;
   flex-direction: column;
@@ -69,6 +72,11 @@ i.close {
 
 i.close.show {
   display: flex;
+}
+
+.hamburger {
+  border-right-width: 50px;
+  margin-right: 20px;
 }
 
 img.hamburger.hide {
