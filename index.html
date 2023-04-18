@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="Styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="popup.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -78,106 +79,17 @@
         </div>
       </section>
     </section>
-    <!-- Work Section -->
-    <section class="work" id="cards">
-      <div class="card-container">
-        <img
-          src="images/Snapshoot Portfolio desktop.png"
-          alt="Project Snapshoot"
-          class="project-img"
-        />
-
-        <div class="wrap">
-          <h2 class="card-tittle">Tonic</h2>
-          <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="Project Card 1" />
-          </div>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="languages-list">
-            <li class="html">html</li>
-            <li class="css">css</li>
-            <li class="javascript">javascript</li>
-          </ul>
-
-          <button type="button" class="see-button">See Project</button>
-        </div>
-      </div>
-
-      <div class="card-container">
-        <img
-          src="images/Snapshoot Portfolio(3).png"
-          alt="Project card 2"
-          class="project-img order-2"
-        />
-        <div class="wrap">
-          <h2 class="card-tittle">Multi-Post Stories</h2>
-          <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="Project card 3" />
-          </div>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="languages-list">
-            <li class="html">html</li>
-            <li class="css">css</li>
-            <li class="javascript">javascript</li>
-          </ul>
-          <button type="button" class="see-button">See Project</button>
-        </div>
-      </div>
-
-      <div class="card-container">
-        <img
-          src="images/Snapshoot Portfolio.png"
-          alt="Project Snapshoot"
-          class="project-img"
-        />
-        <div class="wrap">
-          <h2 class="card-tittle">Tonic</h2>
-          <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="Project card 4" />
-          </div>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="languages-list">
-            <li class="html">html</li>
-            <li class="css">css</li>
-            <li class="javascript">javascript</li>
-          </ul>
-          <button type="button" class="see-button">See Project</button>
-        </div>
-      </div>
-
-      <div class="card-container">
-        <img
-          src="images/Snapshoot Portfolio desktop 2.png"
-          alt="Project card 6"
-          class="project-img order-2"
-        />
-        <div class="wrap">
-          <h2 class="card-tittle">Multi-Post Stories</h2>
-          <div class="frame2-img">
-            <img src="images/Frame 2.png" alt="Project card 5" />
-          </div>
-          <p class="description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="languages-list">
-            <li class="html">html</li>
-            <li class="css">css</li>
-            <li class="javascript">javascript</li>
-          </ul>
-          <button type="button" class="see-button">See Project</button>
-        </div>
+    <!-- WORKS -->
+    <section class="works" id="portfolio">
+      <div class="card-container" id="portfolio">
+        <div class="projects"></div>
       </div>
     </section>
+    <!-- WORKS ENDS -->
+
+    <!-- PROJECT POPUP STARTS -->
+    <section id="modal" class="hide"></section>
+    <!-- PROJECT POPUP ENDS -->
     <!--About Section-->
     <section class="about" id="about">
       <div class="about-holder flex column">
@@ -322,7 +234,7 @@
         </div>
       </div>
     </section>
-
     <script src="script.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
