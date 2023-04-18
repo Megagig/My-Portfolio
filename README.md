@@ -39,7 +39,7 @@ Linters.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/Megagig/My-Portfolio)
+- [Live Demo Link](https://megagig.github.io/My-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
