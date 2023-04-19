@@ -4,14 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="popup.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -19,178 +14,204 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Anthony's Portfolio</title>
   </head>
+
   <body>
-    <section class="container">
-      <header>
-        <div class="logo-icon">
-          <a href="#" class="logo">My Logo</a>
-        </div>
+    <header>
+      <div class="nav-logo">
+        <a href="#">My Logo </a>
+      </div>
 
-        <nav class="desktop-link">
-          <ul class="desktop">
-            <li><a href="#cards" class="nav-list">Portfolio</a></li>
-            <li><a href="#about" class="nav-list">About</a></li>
-            <li><a href="#contact" class="nav-list">Contact</a></li>
-          </ul>
-        </nav>
+      <!---------- Desktop menu-------------->
 
-        <div class="nav-links">
-          <a href="#"
-            ><img
-              src="images/icon-menu.png"
-              alt="navigation icon"
-              class="hamburger"
-            />
-            <i class="fa-solid fa-xmark close"></i>
-          </a>
-        </div>
-      </header>
-      <section class="opening">
-        <div class="opening-container">
-          <h1 class="heading">I’m Anthony.<br />Glad to see you!</h1>
-          <p class="desc">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-          <h3 class="connection">LET’S CONNECT</h3>
-          <ul class="socials">
-            <li class="icons">
-              <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/medium.png" alt="Medium" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/github.png" alt="GitHub" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"
-                ><img src="images/peace-icon.png" alt="Peace icon"
-              /></a>
-            </li>
-          </ul>
+      <nav class="desktop-menu">
+        <ul class="flex">
+          <li><a href="#cards" class="nav-list">Portfolio</a></li>
+          <li><a href="#about" class="nav-list">About</a></li>
+          <li><a href="#contact" class="nav-list">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-links">
+        <a href="#"
+          ><img
+            src="images/icon-menu.png"
+            alt="navigation icon"
+            class="humberger"
+          />
+          <i class="fa-solid fa-xmark close"></i>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-card">
+      <section class="image">
+        <div class="main-container">
+          <div class="intro-text">
+            <h1>I'm Anthony <br />Glad to see you!</h1>
+            <p>
+              I am a Software developer, i can help you build a product, feature
+              or website, look through some of my works and experience! if you
+              like what you see and have a project you need coded dont hesitate
+              to contact me.
+            </p>
+          </div>
+          <div class="intro-items">
+            <a href="#">LET'S CONNECT</a>
+            <div class="intro-connect">
+              <ul class="list-items">
+                <li>
+                  <a href="#">
+                    <img src="images/twitter.png" alt="Twitter-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="./images/linkedin.png" alt="linkedin-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/medium.png" alt="medium-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/github.png" alt="github-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/peace-icon.png" alt="peace-icon" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
-    </section>
-    <!-- WORKS -->
-    <section class="works" id="portfolio">
-      <div class="card-container" id="portfolio">
-        <div class="projects"></div>
-      </div>
-    </section>
-    <!-- WORKS ENDS -->
+    </main>
 
-    <!-- PROJECT POPUP STARTS -->
-    <section id="modal" class="hide"></section>
-    <!-- PROJECT POPUP ENDS -->
-    <!--About Section-->
+    <section class="work-cards" id="cards">
+      <div class="project-card" id="workpage"></div>
+    </section>
+    <!----------About Section------------->
     <section class="about" id="about">
-      <div class="about-holder flex column">
-        <div class="content flex column">
-          <h2 class="title">About Myself</h2>
-          <p class="mbido">
+      <div class="about-me flex column">
+        <div class="is-me flex column">
+          <h2 class="about-text">About <br />Myself</h2>
+          <p class="self">
             Hello I'm a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don't
             hestiate to contact me.
           </p>
-          <h3 class="connect" href="#">LET'S CONNECT</h3>
-          <ul class="about-icons">
-            <li class="icons">
-              <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/linkedin.png" alt="LinkedIn" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/medium.png" alt="Medium" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"><img src="images/github.png" alt="GitHub" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"
-                ><img src="images/peace-icon.png" alt="peace icon"
-              /></a>
-            </li>
-          </ul>
-          <button class="about-btn">Get my resume</button>
+
+          <div class="intro-items">
+            <a href="#"><h3>LET'S CONNECT</h3></a>
+            <div class="intro-connect">
+              <ul class="list-items skill-items">
+                <li>
+                  <a href="#">
+                    <img src="images/github.png" alt="github-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/linkedin.png" alt="linkedin-logo" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/peace-icon.png" alt="peace-icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/twitter.png" alt="My Social Media" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/medium.png" alt="My Social Media" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button">Get my resume</button>
         </div>
-        <div class="about-lang">
-          <div class="languages">
-            <ul class="lang-title">
-              <li class="lang-text">Languages</li>
-              <li class="lang-img">
-                <img
-                  src="images/arrow-down.svg"
-                  alt="arrow"
-                  class="down-arrow"
-                />
-              </li>
-            </ul>
-
-            <ul class="lang">
-              <li class="langs">
-                <img src="images/Jslogo.png" alt="JavaScript-Logo" />
-                <h4 class="langs-text">JavaSript</h4>
-              </li>
-              <li class="langs">
-                <img src="images/HTML-logo.png" alt="HTML5-Logo" />
-                <h4 class="langs-text">HTML</h4>
-              </li>
-              <li class="langs">
-                <img src="images/CSS-logo.png" alt="CSS3-Logo" />
-                <h4 class="langs-text">CSS</h4>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul class="framework">
-              <li class="frame-title">Frameworks</li>
-
-              <li class="frame-img">
-                <img src="images/left-arrow.svg" alt="arrow" />
-              </li>
-            </ul>
-            <hr class="new1" />
-          </div>
-          <div>
-            <ul class="skill">
-              <li class="skill-title">Skills</li>
-              <li class="skill-img">
-                <img src="images/left-arrow.svg" alt="arrow" />
-              </li>
-            </ul>
-            <hr class="new1" />
-          </div>
+        <div class="knowdge flex column">
+          <ul>
+            <li>
+              <div class="know flex column">
+                <p class="know-text flex">
+                  <span class="text">Languages</span>
+                  <span class="know-line">></span>
+                </p>
+                <ul class="know-sec flex column">
+                  <li class="know-list flex">
+                    <img src="images/Jslogo.png" alt="js logo" />
+                    <p class="job-text">JavaScript</p>
+                  </li>
+                  <li class="know-list flex">
+                    <img src="images/HTML-logo.png" alt="html logo" />
+                    <p class="job-text">HTML</p>
+                  </li>
+                  <li class="know-list flex">
+                    <img src="images/CSS-logo.png" alt="css logo" />
+                    <p class="job-text">CSS</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="know">
+                <p class="know-text flex">
+                  <span class="text">Frameworks</span
+                  ><span class="arrow">></span>
+                </p>
+              </div>
+            </li>
+            <div class="arrow-line">
+              <hr />
+            </div>
+            <li>
+              <div class="know">
+                <p class="know-text flex">
+                  <span class="text">Skills</span><span class="arrow">></span>
+                </p>
+              </div>
+            </li>
+            <div class="arrow-line">
+              <hr />
+            </div>
+          </ul>
         </div>
       </div>
     </section>
-    <!----------------------------Contact Me Section------------------------------------>
-    <section class="contact" id="contact">
-      <div class="contact-holder">
-        <div class="call-now">
+
+    <!-----------------------Contact me section------------------------------>
+    <section class="contact-section" id="contact">
+      <div class="contact-hold">
+        <div class="contact-now">
           <h2>Contact me</h2>
-          <p class="contact-description">
+          <p>
             If you have an application you are interested in developing, a
             features that you need built or a project that need coding. I'd love
             to help with it.
           </p>
         </div>
-        <div class="contact-form">
-          <form action="https://formspree.io/f/mbjezpvk" method="POST">
+        <div class="contact-now-form">
+          <form
+            action="https://formspree.io/f/mnqrekzw"
+            method="post"
+            onsubmit="return validateEmail()"
+          >
             <div class="input-username">
-              <label hidden for="name">Username</label>
+              <label hidden id="mylabel" for="username">Username</label>
               <input
                 type="text"
-                id="name"
                 name="username"
                 class="input"
                 placeholder="Username"
@@ -200,13 +221,13 @@
             </div>
             <br />
             <div class="email-input">
-              <label hidden for="email" class="email-label">Email</label>
+              <label hidden id="mylabel" for="email">Email</label>
               <input
                 type="email"
-                id="email"
                 name="email"
                 class="input"
-                placeholder="Email"
+                placeholder="enter email"
+                id="email"
                 size="64"
                 maxlength="64"
                 required
@@ -215,26 +236,110 @@
             <br />
 
             <div class="text-area">
-              <label hidden for="message" class="msg-label">Message</label>
+              <label hidden id="mylabel" for="message">Message</label>
               <textarea
                 name="message"
-                id="message"
                 type="text"
                 class="input-textarea"
                 cols="30"
                 maxlength="500"
-                placeholder="Write your message here"
+                placeholder="Enter your message here"
                 required
               ></textarea>
             </div>
+            <div id="errorMessage" class="error-message"></div>
             <button type="submit" value="Get In Touch" class="submit-button">
-              Get in touch
+              Get In Touch
             </button>
           </form>
         </div>
       </div>
     </section>
+
+    <div class="modal" id="modal1">
+      <div id="popup-modal" class="pop-content">
+        <div class="headline-popup">
+          <h1>Tonic</h1>
+          <a href="#" role="button" onclick="closePopup()">
+            <div class="popup-clsbtn">x</div>
+          </a>
+        </div>
+      </div>
+      <ul class="small-tags">
+        <li class="canopy-sm-tag">CANOPY</li>
+        <li>
+          <div class="round-popup"></div>
+        </li>
+        <li class="second-sm-tag">Back End Dev</li>
+        <li>
+          <div class="round-popup"></div>
+        </li>
+        <li class="second-sm-tag">2015</li>
+      </ul>
+      <div class="popup-image-container">
+        <img src="images/Snapshoot Portfolio.png" alt="pop-image" />
+      </div>
+      <div class="popup-mobile-container"></div>
+      <div class="buttom-content-container">
+        <div class="paragraph-description">
+          <p class="paragraph-description-desktop">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it 1960s with the releaLorem Ipsum is simply dummy text of
+            the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it 1960s with the
+            releorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="action-content">
+          <div class="popup-tags">
+            <ul class="first">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>javascript</li>
+            </ul>
+            <ul class="second">
+              <li>github</li>
+              <li>ruby</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="divider-popup">
+            <img src="./images/Vector 4.png" alt="Divider popup" />
+          </div>
+          <div class="popup-button-action">
+            <button type="submit">
+              <div class="source-code">
+                <a href="">See live </a>
+              </div>
+              <div class="deploy-icon">
+                <img
+                  src="images/Icon.png"
+                  alt="deployment icon"
+                  class="deploy-icon-popup"
+                />
+              </div>
+            </button>
+            <button type="submit" class="submit-github">
+              <div class="live-version">
+                <a href="">See Source </a>
+              </div>
+              <div class="github-img">
+                <img
+                  src="images/Vector.png"
+                  alt="github icon"
+                  class="github-icon-popup"
+                />
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-    <script src="popup.js"></script>
   </body>
 </html>
