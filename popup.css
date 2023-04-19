@@ -235,6 +235,7 @@ header {
   align-items: center;
   padding: 1.5rem;
   background-color: #fff;
+  position: fixed;
 }
 
 .nav-logo a {
@@ -630,7 +631,7 @@ ul.list-items.skill-items {
 
 /* ------------------------Contact Section----------------------------- */
 
-.contact-section {
+. contact {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact-bg.png);
@@ -1122,7 +1123,7 @@ button:active {
     padding-right: 60px;
   }
 
-  section.contact-section {
+  section.contact {
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 0;
@@ -1135,7 +1136,7 @@ button:active {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .contact-section {
+  .contact {
     display: flex;
     flex-direction: column;
     width: 100%;

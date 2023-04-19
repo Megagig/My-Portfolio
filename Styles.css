@@ -28,6 +28,7 @@ header {
   margin: 1em auto;
   margin-top: 0;
   padding-top: 16px;
+  position: fixed;
 }
 
 .logo {
@@ -725,7 +726,7 @@ hr.new1 {
 
 /* Contact-me Section */
 .contact {
-  background-image: url(images/contact\ form\ background\ shapes@2x.png);
+  background-image: url(./images/contact-bg.png);
   background-size: cover;
   width: 370px;
   height: 44rem;
@@ -764,7 +765,7 @@ hr.new1 {
   padding: 10;
 }
 
-.contact-holder {
+.contact-holderer {
   margin-top: 103px;
 }
 
@@ -1068,7 +1069,7 @@ button:active {
 
   /* -------------contact Section--------------------------------------------------- */
 
-  .contact-holder {
+  .contact-holderer {
     width: 100%;
     display: flex;
     flex-direction: column;

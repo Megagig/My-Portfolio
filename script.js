@@ -161,7 +161,7 @@ for (let j = 0; j < projects.length; j += 1) {
             </ul>
           </div>
           <div class="divider-popup">
-            <img src="images/Vector4.png" alt="Divider popup" />
+            <img src="images/Vector 4.png" alt="Divider popup" />
           </div>
           <div class="popup-button-action">
             <button type="submit">
