@@ -667,7 +667,7 @@ ul.list-items.skill-items {
   padding: 10;
 }
 
-.contact-now-form {
+.contact-form {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -1159,7 +1159,7 @@ button:active {
     background-color: #c9c9c9;
   }
 
-  .contact-now-form .form {
+  .contact-form .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
