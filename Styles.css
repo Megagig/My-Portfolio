@@ -24,16 +24,19 @@ body {
   text-decoration: none;
   color: #396df2;
 }
+
 .source-code a {
   position: relative;
   left: -15px;
   text-decoration: none;
   color: #396df2;
 }
+
 .live-version a {
   color: #396df2;
   text-decoration: none;
 }
+
 @media screen and (max-width: 768px) {
   .modal {
     display: none;
@@ -47,6 +50,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
   }
+
   .round-popup {
     width: 8px;
     height: 8px;
@@ -168,10 +172,12 @@ body {
     text-decoration: none;
     color: #396df2;
   }
-  .live-version a {
+
+  /* .live-version a {
     color: #396df2;
     text-decoration: none;
-  }
+  } */
+
   .popup-tags .first li {
     display: inline-block;
     padding: 4px 12px;
@@ -215,10 +221,12 @@ body {
   .overlay a {
     font-size: 20px;
   }
+
   .okeke {
     text-decoration: none;
     color: #396df2;
   }
+
   .overlay .closebtn {
     font-size: 15px;
     top: 15px;
@@ -769,20 +777,24 @@ button:active {
     z-index: 7;
     padding: 10px;
   }
+
   .okeke {
     text-decoration: none;
     color: #396df2;
   }
+
   .source-code a {
     position: relative;
     left: -15px;
     text-decoration: none;
     color: #396df2;
   }
+
   .live-version a {
     color: #396df2;
     text-decoration: none;
   }
+
   .modal {
     display: none;
     position: fixed;
@@ -796,6 +808,7 @@ button:active {
     backdrop-filter: blur(8px);
   }
 }
+
 /* ----------------Desktop version-------------- */
 
 @media screen and (min-width: 768px) {
@@ -811,6 +824,7 @@ button:active {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
   }
+
   .nav-list {
     text-decoration: none;
     color: #29323c;
@@ -825,7 +839,6 @@ button:active {
     padding: 5px 20px;
     justify-content: center;
     top: 60px;
-    height: 100%;
     overflow: auto;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
@@ -1018,6 +1031,7 @@ button:active {
     text-decoration: none;
     color: #396df2;
   }
+
   .live-version a {
     color: #396df2;
     text-decoration: none;
