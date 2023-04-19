@@ -27,7 +27,7 @@ const projects = [
   {
     name: 'Tonic',
     des: ['Canopy', 'backend', '2015'],
-    img: 'images/snapshoot1.png',
+    img: 'images/mobile1.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     desc1:
@@ -40,7 +40,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     des: ['Canopy', 'backend', '2015'],
-    img: 'images/snapshoot2.png',
+    img: 'images/mobile2.png',
     description:
       'Experimental content creation feature that allows users to add an existing story over the course of a day without spamming their friends.',
     desc1:
@@ -53,7 +53,7 @@ const projects = [
   {
     name: 'Facebook 360',
     des: ['Canopy', 'backend', '2015'],
-    img: 'images/snapshoot3.png',
+    img: 'images/mobile3.png',
     description:
       'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos pn Gear VR.',
     desc1:
@@ -66,7 +66,7 @@ const projects = [
   {
     name: 'Uber Navigation',
     des: ['Canopy', 'backend', '2015'],
-    img: 'images/snapshoot4.png',
+    img: 'images/mobile4.png',
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     desc1:
@@ -166,7 +166,7 @@ for (let j = 0; j < projects.length; j += 1) {
           <div class="popup-button-action">
             <button type="submit">
               <div class="source-code">
-                <a href="">See live </a>
+                <a href="" class"okeke">See live </a>
               </div>
               <div class="deploy-icon">
                 <img src="images/Icon.png" alt="deployment icon" class="deploy-icon-popup" />
@@ -174,7 +174,7 @@ for (let j = 0; j < projects.length; j += 1) {
             </button>
             <button class="submit-github">
               <div class="live-version">
-                <a href="">See Source </a>
+                <a href="" class"okeke">See Source </a>
               </div>
               <div class="github-img">
                 <img src="images/Vector.png" alt="github icon" class="github-icon-popup" />

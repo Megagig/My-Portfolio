@@ -20,6 +20,20 @@ body {
   margin-top: 10px;
 }
 
+.okeke {
+  text-decoration: none;
+  color: #396df2;
+}
+.source-code a {
+  position: relative;
+  left: -15px;
+  text-decoration: none;
+  color: #396df2;
+}
+.live-version a {
+  color: #396df2;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   .modal {
     display: none;
@@ -33,20 +47,6 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
   }
-
-  .popup-container {
-    background: #fff;
-    border: 1px solid #ebecf0;
-    width: 90%;
-    margin: 5% auto 3% auto;
-    padding: 5px 20px;
-    justify-content: center;
-    top: 60px;
-    height: auto;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    border-radius: 16px;
-  }
-
   .round-popup {
     width: 8px;
     height: 8px;
@@ -165,8 +165,13 @@ body {
   .source-code a {
     position: relative;
     left: -15px;
+    text-decoration: none;
+    color: #396df2;
   }
-
+  .live-version a {
+    color: #396df2;
+    text-decoration: none;
+  }
   .popup-tags .first li {
     display: inline-block;
     padding: 4px 12px;
@@ -183,6 +188,11 @@ body {
 
   .popup-tags .second li {
     display: none;
+  }
+
+  .live-version a {
+    text-decoration: none;
+    color: #396df2;
   }
 
   .live-version,
@@ -205,7 +215,10 @@ body {
   .overlay a {
     font-size: 20px;
   }
-
+  .okeke {
+    text-decoration: none;
+    color: #396df2;
+  }
   .overlay .closebtn {
     font-size: 15px;
     top: 15px;
@@ -744,6 +757,45 @@ button:active {
   display: block;
 }
 
+@media screen and (min-width: 350px) {
+  .popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 823px;
+    background-color: #fff;
+    backdrop-filter: blur(5px);
+    z-index: 7;
+    padding: 10px;
+  }
+  .okeke {
+    text-decoration: none;
+    color: #396df2;
+  }
+  .source-code a {
+    position: relative;
+    left: -15px;
+    text-decoration: none;
+    color: #396df2;
+  }
+  .live-version a {
+    color: #396df2;
+    text-decoration: none;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+  }
+}
 /* ----------------Desktop version-------------- */
 
 @media screen and (min-width: 768px) {
@@ -759,20 +811,25 @@ button:active {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
   }
+  .nav-list {
+    text-decoration: none;
+    color: #29323c;
+  }
 
   .popup-container {
     background: #fff;
     border: 1px solid #ebecf0;
     width: 75%;
-    margin: 3% auto 3% auto;
+    margin: 12%;
+    margin-top: 5%;
     padding: 5px 20px;
     justify-content: center;
-
-    /* top: 60px; */
+    top: 60px;
     height: 100%;
     overflow: auto;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
+    height: auto;
   }
 
   .round-popup {
@@ -955,6 +1012,17 @@ button:active {
     line-height: 20px;
   }
 
+  .source-code a {
+    position: relative;
+    left: -15px;
+    text-decoration: none;
+    color: #396df2;
+  }
+  .live-version a {
+    color: #396df2;
+    text-decoration: none;
+  }
+
   .github-img,
   .deploy-icon {
     width: 18px;
@@ -1002,7 +1070,7 @@ button:active {
   .image {
     display: flex;
     flex-direction: column;
-    background-image: url('images/header-bg.png');
+    background-image: url('images/Header\ backround\ image.jpg');
     border-bottom-left-radius: 80px;
     height: 90%;
     background-repeat: no-repeat;
