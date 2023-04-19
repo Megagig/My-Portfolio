@@ -34,7 +34,7 @@ const projects = [
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     technologies1: ['github', 'ruby', 'Bootstrap'],
-    liveVersion: 'https://gmanlove.github.io/My-Portfolio/ ',
+    liveVersion: 'https://megagig.github.io/My-Portfolio/ ',
     sourceCode: 'https://github.com/Megagig/My-Portfolio',
   },
   {
@@ -194,22 +194,3 @@ for (let j = 0; j < projects.length; j += 1) {
     });
   });
 }
-
-// ---------------------------Contact form validation---------------------
-const formContact = document.getElementById('form');
-
-function validateEmail() {
-  const email = document.getElementById('email').value;
-  const error = document.getElementById('errorMessage');
-  if (email.toLowerCase() !== email) {
-    error.innerHTML = 'Please enter your email in lowercase';
-    error.style.display = 'block';
-    error.style.color = '#FFFF';
-    error.style.fontSize = 'larger';
-    return false;
-  }
-  document.getElementById('errorMessage').innerHTML = '';
-  return true;
-}
-
-formContact.addEventListener('submit', validateEmail);
