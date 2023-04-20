@@ -205,12 +205,14 @@
           <form
             action="https://formspree.io/f/mbjezpvk"
             method="post"
+            id="form"
             onsubmit="return validateEmail()"
           >
             <div class="input-username">
               <label hidden id="mylabel" for="username">Username</label>
               <input
                 type="text"
+                id="fullName"
                 name="username"
                 class="input"
                 placeholder="Username"
@@ -238,6 +240,7 @@
               <label hidden id="mylabel" for="message">Message</label>
               <textarea
                 name="message"
+                id="message"
                 type="text"
                 class="input-textarea"
                 cols="30"

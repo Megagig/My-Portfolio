@@ -194,3 +194,46 @@ for (let j = 0; j < projects.length; j += 1) {
     });
   });
 }
+
+// Contact form validation
+//Get the submit button, name, email, message input elements and form
+const submitButton = document.querySelector('.submit-button');
+const fullNameInput = document.querySelector('#fullName');
+const messageInput = document.querySelector('#message');
+const emailInput = document.querySelector('#email');
+const form = document.querySelector('#form');
+
+// Add an event listener to the submit button
+submitButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  //validate the name field
+  if (fullNameInput.value === '') {
+    alert('Name cannot be empty');
+    fullNameInput.focus();
+    return false;
+  }
+  //validate the email field
+  if (emailInput.value === '') {
+    alert('Email cannot be empty');
+    emailInput.focus();
+    return false;}
+    else if (!emailInput.value.includes('@') || !emailInput.value.includes('.')){
+      alert('Please enter a valid email);
+      emailInput.focus();
+      return false;}
+
+      //validate the message field
+      if (messageInput.value === ''){
+        alert('message cannot exceed 255 characters');
+        messageInput.focus();
+        return false;}
+      
+        //submit the form
+        alert('message sent successfully');
+        form.submit();
+        fullNameInput.value = '';
+        emailInput.value = '';
+        messageInput.value = '';
+        
+
+});
