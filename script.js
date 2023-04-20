@@ -196,47 +196,64 @@ for (let j = 0; j < projects.length; j += 1) {
 }
 
 // Contact form validation
-//Get the submit button, name, email, message input elements and form
+// Get the submit button, name, email, message input elements and form
 const submitButton = document.querySelector('.submit-button');
 const fullNameInput = document.querySelector('#fullName');
 const messageInput = document.querySelector('#message');
 const emailInput = document.querySelector('#email');
 const form = document.querySelector('#form');
 
+// Get the error elements for name,email and message fields
+const fullNameError = document.querySelector('#fullNameError');
+const emailError = document.querySelector('#emailError');
+const messageError = document.querySelector('#messageError');
+
 // Add an event listener to the submit button
 submitButton.addEventListener('click', (event) => {
   event.preventDefault();
-  //validate the name field
+  // validate the name field
   if (fullNameInput.value === '') {
-    alert('Name cannot be empty');
+    fullNameError.textContent = 'Name must not be empty';
+    fullNameError.classList.add('show');
     fullNameInput.focus();
     return false;
   }
-  //validate the email field
+  fullNameError.classList.remove('show');
+
+  // validate the email field
   if (emailInput.value === '') {
-    alert('Email cannot be empty');
-    emailInput.focus();
-    return false;
-  } else if (
-    !emailInput.value.includes('@') ||
-    !emailInput.value.includes('.')
-  ) {
-    alert('Please enter a valid email');
+    emailError.textContent = 'Email must not be empty';
+    emailError.classList.add('show');
     emailInput.focus();
     return false;
   }
+  if (!emailInput.value.includes('@') || !emailInput.value.includes('.')) {
+    emailError.textContent = 'Enter a valid email in Lowercase';
+    emailError.classList.add('show');
+    emailInput.focus();
+    return false;
+  }
+  emailError.classList.remove('show');
 
-  //validate the message field
+  // validate the message field
   if (messageInput.value === '') {
-    alert('message cannot exceed 255 characters');
+    messageError.textContent = 'message is required';
+    messageError.classList.add('show');
     messageInput.focus();
     return false;
   }
+  if (messageInput.value.length > 255) {
+    messageError.textContent = 'message cannot be more than 255 characters';
+    messageError.classList.add('show');
+    messageInput.focus();
+    return false;
+  }
+  messageError.classList.remove('show');
 
-  //submit the form
-  alert('message sent successfully');
+  // submit the form
   form.submit();
   fullNameInput.value = '';
   emailInput.value = '';
   messageInput.value = '';
+  return false;
 });

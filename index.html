@@ -206,8 +206,8 @@
             action="https://formspree.io/f/mbjezpvk"
             method="post"
             id="form"
-            onsubmit="return validateEmail()"
           >
+            <span id="fullNameError"></span>
             <div class="input-username">
               <label hidden id="mylabel" for="username">Username</label>
               <input
@@ -221,6 +221,7 @@
               />
             </div>
             <br />
+            <span id="emailError"></span>
             <div class="email-input">
               <label hidden id="mylabel" for="email">Email</label>
               <input
@@ -235,7 +236,7 @@
               />
             </div>
             <br />
-
+            <span id="messageError"></span>
             <div class="text-area">
               <label hidden id="mylabel" for="message">Message</label>
               <textarea
