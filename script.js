@@ -228,9 +228,9 @@ submitButton.addEventListener('click', (event) => {
     return false;
   }
   if (
-    !emailInput.value.includes('@') ||
-    !emailInput.value.includes('.') ||
-    emailInput.value !== emailInput.value.toLowerCase()
+    !emailInput.value.includes('@')
+    || !emailInput.value.includes('.')
+    || emailInput.value !== emailInput.value.toLowerCase()
   ) {
     emailError.textContent = 'Enter a valid email in Lowercase';
     emailError.classList.add('show');
@@ -270,7 +270,7 @@ function saveUserData() {
     message: messageInput.value,
   };
 
-  //Store user data in local storage
+  // Store user data in local storage
   localStorage.setItem('userData', JSON.stringify(userData));
 }
 // Add event listeners to input fields to trigger save function on focus out
