@@ -227,13 +227,16 @@ submitButton.addEventListener('click', (event) => {
     emailInput.focus();
     return false;
   }
-  if (!emailInput.value.includes('@') || !emailInput.value.includes('.') || !emailInput.value.toLowerCase()) {
+  if (
+    !emailInput.value.includes('@') ||
+    !emailInput.value.includes('.') ||
+    emailInput.value !== emailInput.value.toLowerCase()
+  ) {
     emailError.textContent = 'Enter a valid email in Lowercase';
     emailError.classList.add('show');
     emailInput.focus();
     return false;
   }
-  emailError.classList.remove('show');
 
   // validate the message field
   if (messageInput.value === '') {
