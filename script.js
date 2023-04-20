@@ -216,24 +216,27 @@ submitButton.addEventListener('click', (event) => {
   if (emailInput.value === '') {
     alert('Email cannot be empty');
     emailInput.focus();
-    return false;}
-    else if (!emailInput.value.includes('@') || !emailInput.value.includes('.')){
-      alert('Please enter a valid email);
-      emailInput.focus();
-      return false;}
+    return false;
+  } else if (
+    !emailInput.value.includes('@') ||
+    !emailInput.value.includes('.')
+  ) {
+    alert('Please enter a valid email');
+    emailInput.focus();
+    return false;
+  }
 
-      //validate the message field
-      if (messageInput.value === ''){
-        alert('message cannot exceed 255 characters');
-        messageInput.focus();
-        return false;}
-      
-        //submit the form
-        alert('message sent successfully');
-        form.submit();
-        fullNameInput.value = '';
-        emailInput.value = '';
-        messageInput.value = '';
-        
+  //validate the message field
+  if (messageInput.value === '') {
+    alert('message cannot exceed 255 characters');
+    messageInput.focus();
+    return false;
+  }
 
+  //submit the form
+  alert('message sent successfully');
+  form.submit();
+  fullNameInput.value = '';
+  emailInput.value = '';
+  messageInput.value = '';
 });
