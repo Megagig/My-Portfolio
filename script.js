@@ -228,9 +228,9 @@ submitButton.addEventListener('click', (event) => {
     return false;
   }
   if (
-    !emailInput.value.includes('@') ||
-    !emailInput.value.includes('.') ||
-    emailInput.value !== emailInput.value.toLowerCase()
+    !emailInput.value.includes('@')
+    || !emailInput.value.includes('.')
+    || emailInput.value !== emailInput.value.toLowerCase()
   ) {
     emailError.textContent = 'Enter a valid email in Lowercase';
     emailError.classList.add('show');
