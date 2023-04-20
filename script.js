@@ -260,3 +260,27 @@ submitButton.addEventListener('click', (event) => {
   messageInput.value = '';
   return false;
 });
+
+// USE LOCAL STORAGE TO STORE USER INPUT
+// Define a function to save user data to local storage
+function saveUserData() {
+  const userData = {
+    username: fullNameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  // Store user data in local storage
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+// Add event listeners to input fields to trigger save function on focus out
+
+fullNameInput.addEventListener('focusout', saveUserData);
+emailInput.addEventListener('focusout', saveUserData);
+messageInput.addEventListener('focusout', saveUserData);
+
+// Retrieve user data from local storage and populate input fields
+const data = JSON.parse(localStorage.getItem('userData')) || {};
+fullNameInput.value = data.username || '';
+emailInput.value = data.email || '';
+messageInput.value = data.message || '';
