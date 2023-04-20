@@ -274,11 +274,11 @@ function saveUserData() {
   localStorage.setItem('userData', JSON.stringify(userData));
 }
 // Add event listeners to input fields to trigger save function on focus out
-// const inputs = ['fullNameInput', 'emailInput', 'messageInput'];
-// inputs.forEach((input) => input.addEventListener('focusout', saveUserData));
+
 fullNameInput.addEventListener('focusout', saveUserData);
 emailInput.addEventListener('focusout', saveUserData);
 messageInput.addEventListener('focusout', saveUserData);
+
 // Retrieve user data from local storage and populate input fields
 const data = JSON.parse(localStorage.getItem('userData')) || {};
 fullNameInput.value = data.username || '';
