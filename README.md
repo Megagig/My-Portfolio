@@ -39,7 +39,7 @@ Linters.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://deploy-preview-10--gleaming-lamington-a02e29.netlify.app/)
+- [Live Demo Link](https://obianthony.netlify.app/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
